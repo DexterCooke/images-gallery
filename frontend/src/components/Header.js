@@ -12,7 +12,7 @@ const navbarStyle = {
     return (
          <Navbar style={navbarStyle} data-bs-theme="light">
         <Container>
-          <Logo style={{ maxWidth: '12rem', maxHeight: '2rem' }}/>
+          <Logo alt={title} style={{ maxWidth: '12rem', maxHeight: '2rem' }}/>
         </Container>
       </Navbar>
     )
